@@ -1,10 +1,10 @@
-import express from "express";
-import { alluser, reguser } from "../controller/user.js";
+// import express from "express";
+// import { alluser, reguser } from "../controller/user.js";
 
-const routes = express.Router()
+// const routes = express.Router()
 
-routes.get('/all',alluser)
+// routes.get('/all',alluser)
 
-routes.post('/',reguser)
+// routes.post('/',reguser)
 
-export default routes
+// export default routes

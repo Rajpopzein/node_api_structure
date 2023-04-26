@@ -1,5 +1,5 @@
 import express  from "express";
-import userouts from "./router/routs.js"
+// import userouts from "./router/routs.js"
 
 const app = express()
 app.use(express.json());
@@ -7,12 +7,10 @@ app.use(express.json());
 
 const port = 4000
 
-app.use('/users',userouts)
+// app.use('/users',userouts)
 
 app.get("/",(req,res)=>{
-    return(
         res.send("hello")
-    )
 })
 
 
